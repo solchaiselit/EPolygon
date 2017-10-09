@@ -1,0 +1,15 @@
+package package1;
+
+public class Appearance {
+
+	private int weightKg;
+	
+	private int maxSpeed;
+	
+	private int age;
+	
+	private String color;
+	
+	
+	
+}

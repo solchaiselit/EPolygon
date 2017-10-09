@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="CommitDialog.authorValues">
+		<item value="ivan &lt;ivan@dora&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="ivan &lt;ivan@dora&gt;"/>
+	</list>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\ivan\git\.git">
+			<item value="false"/>
+			<item value="ivan &lt;ivan@dora&gt;"/>
+			<item value="init commit"/>
+			<item value="ivan &lt;ivan@dora&gt;"/>
+			<item value="afced579d4c0b9d321c3d00f78fee36c9f76324e"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item value="200,200" key="STAGING_SASH_FORM_WEIGHT"/>
+		<item value="true" key="sortItemState"/>
+		<item value="200,200" key="HORIZONTAL_SASH_FORM_WEIGHT"/>
+	</section>
+</section>

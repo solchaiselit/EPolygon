@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	version="3.1">
+	
+	<servlet>
+		<servlet-name>WelcomeServlet</servlet-name>
+		<servlet-class>com.drink_me.controller.WelcomeController</servlet-class>
+	</servlet>
+	
+
+	<servlet-mapping>
+		<servlet-name>WelcomeServlet</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+
+<servlet>
+	<servlet-name>Registration</servlet-name>
+	<servlet-class>com.drink_me.controller.RegistrationController</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>Registration</servlet-name>
+	<url-pattern>/Link</url-pattern>
+</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>SaveUser</servlet-name>
+		<servlet-class>com.drink_me.controller.SaveUserController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>SaveUser</servlet-name>
+		<url-pattern>/saveUser</url-pattern>
+	</servlet-mapping>
+
+
+</web-app>

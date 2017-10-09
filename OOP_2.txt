@@ -1,0 +1,21 @@
+package OOP_1;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Voiture minivan = new Voiture("bmw", 60, 7); /* object */
+		
+		Voiture sportCar = new Voiture("McLaren", 70, 15);
+		
+//		System.out.println(minivan.brand);
+		
+		minivan.range();
+		sportCar.range();
+
+		double totalRange = minivan.range1()*0.97;
+		System.out.println(minivan.totalRange(0.9));
+		
+	}
+
+}

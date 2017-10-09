@@ -1,0 +1,60 @@
+package OOP_1;
+
+public class Voiture {
+
+	/* Properties * */
+
+	int sizeOfTank;
+	int kmPerLiter;
+	String brand;
+
+	/* create constructor * */
+
+	public Voiture() {  /* default constructor */
+
+	}
+
+	public Voiture(String brand, int sizeOfTank, int kmPerLiter) {  /* generated constructor using fields  */
+		super();
+		this.sizeOfTank = sizeOfTank;
+		this.kmPerLiter = kmPerLiter;
+		this.brand = brand;
+	}
+
+	/* Possible Actions * */
+
+	public void drive() {
+		System.out.println("drive");
+	}
+
+	public void stop() {
+		System.out.println("stop");
+	}
+
+	public void park() {
+		System.out.println("park");
+	}
+
+	public void range(){
+		System.out.println(brand + " can range " + sizeOfTank * kmPerLiter);
+	}
+	
+	public int range1(){
+		int range = sizeOfTank * kmPerLiter;
+		System.out.println(brand + " can range " + range);
+		
+		return range;
+	}
+	
+	public String totalRange(double percentOfPeople){
+		
+		int range = sizeOfTank * kmPerLiter;
+		double totalRange = range * percentOfPeople;
+		
+		String res = brand + " can range " +totalRange; /* or String.valueOf(arg0) */
+		
+		return res;
+		
+	}
+	
+}
